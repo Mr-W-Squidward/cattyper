@@ -11,7 +11,7 @@ const invalidKeys = 'F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 Escape Tab CapsLock 
     ' ',
 );
 const text =
-    'Heyyyy! I hope your day is going SWELL. Thanks for trying out my super epic site. Wajeeh is super cool and wants a Boba Plushie badly.';
+    'Heyyyy! I hope your day is going SWELL. HAPPY HOLIDAYS! I want a present. Thanks for trying out my super epic site. Wajeeh is super cool and wants a Boba Plushie badly.';
 const textArr = text.split('');
 const htmlArr = textArr.map((item, index, array) => {
     if (item === ' ') {
